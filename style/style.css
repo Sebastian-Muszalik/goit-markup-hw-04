@@ -427,7 +427,7 @@ li {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("/images/H1-IMAGE.svg");
+    url("../images/H1-IMAGE.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

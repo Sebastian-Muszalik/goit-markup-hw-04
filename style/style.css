@@ -307,6 +307,7 @@ li {
   margin-left: -10px;
   justify-content: center;
   padding-bottom: 30px;
+  
 
 
 }
@@ -320,8 +321,8 @@ li {
   height: 44px;
   margin-left: 10px;
   border-radius: 50%;
-  background-color:  #FFFFFF;
-  color: #Afb1b8;
+  background-color:  #ffffff;
+  color: #757575;
   margin:auto
   
   }
@@ -329,7 +330,8 @@ li {
 .main-icon-item{
   width: 20px;
   height: 20px;
-  fill: currentcolor
+  fill: currentcolor;
+
 
 }
 .main-icon:hover,
@@ -346,7 +348,37 @@ li {
   font-weight: 700;
   color: #2196f3;
   line-height: 1.2;
-}
+  /* klient */
+  
+  }
+.clients{
+  
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2em;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .clients-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-bottom: -30px;
+  }
+  .clients-list-item {
+    display: flex;
+    justify-content: center;
+    height: 92px;
+    min-width: 170px;
+    border: 1px solid var(--clients-list-item-border-color);
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: #afb1b8;
+  }
 .Web-foot {
   margin: right 93px;
   display: inline-block;

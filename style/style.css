@@ -45,10 +45,10 @@ body {
   height: 12px;
 }
 .head-liste-item-smartphone {
-  display:inline;
   width: 10px;
-  height: 36px;
+  height: 16px;
   margin-right: 10px;
+  margin-left: 30px;
 }
 
 .container {
@@ -300,19 +300,15 @@ li {
   min-width: 270px;
   display: block;
 }
-.main-icon-item-box{
+.main-icon-item-box {
   list-style-type: none;
   display: flex;
   align-items: center;
   margin-left: -10px;
   justify-content: center;
   padding-bottom: 30px;
-  
-
-
 }
-.main-icon{
-
+.main-icon {
   justify-content: center;
   display: flex;
   align-items: center;
@@ -321,22 +317,19 @@ li {
   height: 44px;
   margin-left: 10px;
   border-radius: 50%;
-  background-color:  #ffffff;
+  background-color: #ffffff;
   color: #757575;
-  margin:auto
-  
-  }
+  margin: auto;
+}
 
-.main-icon-item{
+.main-icon-item {
   width: 20px;
   height: 20px;
   fill: currentcolor;
-
-
 }
 .main-icon:hover,
-.main-icon:focus{
-  background-color:#2196f3;
+.main-icon:focus {
+  background-color: #2196f3;
   color: #fff;
 }
 /* footer */
@@ -349,36 +342,34 @@ li {
   color: #2196f3;
   line-height: 1.2;
   /* klient */
-  
-  }
-.clients{
-  
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2em;
-    letter-spacing: 0.03em;
-    margin-bottom: 50px;
-    text-align: center;
-  }
-  .clients-list {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-    margin-bottom: -30px;
-  }
-  .clients-list-item {
-    display: flex;
-    justify-content: center;
-    height: 92px;
-    min-width: 170px;
-    border: 1px solid var(--clients-list-item-border-color);
-    border-radius: 4px;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    cursor: pointer;
-    color: #afb1b8;
-  }
+}
+.clients {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.clients-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+.clients-list-item {
+  display: flex;
+  justify-content: center;
+  height: 92px;
+  min-width: 170px;
+  border: 1px solid var(--clients-list-item-border-color);
+  border-radius: 4px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  color: #afb1b8;
+}
 .Web-foot {
   margin: right 93px;
   display: inline-block;

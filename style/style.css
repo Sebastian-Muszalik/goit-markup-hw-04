@@ -2,6 +2,8 @@
   --color: #ffffff;
   --color2: #2f303a;
   --color3: #f5f4fa;
+  --color4: #2196f3;
+  --icon: #afb1b8;
 }
 * {
   margin: 0px;
@@ -49,14 +51,14 @@ body {
   height: 16px;
   margin-right: 10px;
   margin-left: 30px;
+  fill: currentColor;
 }
 
 .container {
-  margin: 0 auto;
+  margin: auto;
   padding-left: 15px;
   padding-right: 15px;
   max-width: 1200px;
-  margin: 0 auto;
 }
 .section {
   padding-top: 94px;
@@ -318,7 +320,7 @@ li {
   margin-left: 10px;
   border-radius: 50%;
   background-color: #ffffff;
-  color: #757575;
+  color: #afb1b8;
   margin: auto;
 }
 
@@ -363,12 +365,53 @@ li {
   justify-content: center;
   height: 92px;
   min-width: 170px;
-  border: 1px solid var(--clients-list-item-border-color);
+  border: 2px solid #afb1b8;
   border-radius: 4px;
   margin-left: 30px;
   margin-bottom: 30px;
   cursor: pointer;
+  color: var(--icon);
+}
+.clients-list-item-icon {
+  display: flex;
+  align-self: center;
   color: #afb1b8;
+}
+
+.clients-list-item.c01 {
+  width: 41px;
+  height: 48px;
+}
+
+.clients-list-item.c02 {
+  width: 40px;
+  height: 53px;
+}
+
+.clients-list-item.c03 {
+  width: 45px;
+  height: 42px;
+}
+
+.clients-list-item.c04 {
+  width: 85px;
+  height: 42px;
+}
+
+.clients-list-item.c05 {
+  width: 63px;
+  height: 47px;
+}
+
+.clients-list-item.c06 {
+  width: 94px;
+  height: 45px;
+}
+
+.clients-list-item:hover,
+.clients-list-item:focus {
+  border: 2px solid #2196f3;
+  color: #2196f3;
 }
 .Web-foot {
   margin: right 93px;
